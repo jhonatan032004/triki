@@ -1,0 +1,179 @@
+*{
+    background-color: black;
+    margin: auto;
+}
+
+header{
+    text-shadow:
+		0 0 5px rgb(255, 0, 0),
+		0 0 10px rgb(255, 0, 0),
+		0 0 20px rgba(255, 0, 0),
+		0 0 40px rgb(255, 255, 255),
+		0 0 80px rgba(255, 255, 255),
+		0 0 90px rgba(255, 255, 255),
+		0 0 100px rgba(255, 255, 255),
+		0 0 140px rgba(255, 255, 255),
+		0 0 180px rgba(255, 255, 255);
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#player1{
+    margin-top: 60px;
+    box-shadow: 0 0 5px blue,
+    0 0 10px blue,
+    0 0 20px blue,
+    0 0 40px blue,
+    0 0 80px rgb(0, 155, 251),
+    0 0 90px rgb(0, 155, 251);
+    ;
+    height: 800px;
+    width: 500px;
+    float: left;
+    text-align: center;
+    text-shadow:
+		0 0 5px blue,
+		0 0 10px blue,
+		0 0 20px  blue,
+		0 0 40px rgb(255, 255, 255),
+		0 0 80px rgba(255, 255, 255),
+		0 0 90px rgba(255, 255, 255);
+}
+.player{
+    margin-top: 60px;
+    text-align: center;
+    height: 800px;
+    width: 500px;
+}
+
+#player2{
+    margin-top: 60px;
+    box-shadow: 0 0 5px red,
+    0 0 10px red,
+    0 0 20px red,
+    0 0 40px red,
+    0 0 80px orange,
+    0 0 90px orange;
+    ;
+    text-shadow:
+		0 0 5px rgb(255, 0, 0),
+		0 0 10px rgb(255, 0, 0),
+		0 0 20px rgba(255, 0, 0),
+		0 0 40px rgb(255, 255, 255),
+		0 0 80px rgba(255, 255, 255),
+		0 0 90px rgba(255, 255, 255);
+    height: 800px;
+    width: 500px;
+    float: right;
+    text-align: center;
+}
+
+.userimg{
+    width: 100px;
+    margin-top: 50px;
+}
+
+
+
+.name{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.timep{
+    width: 250px;
+    height: 80px;
+    margin-top: 60px;
+}
+
+#time1{
+    box-shadow: 0 0 5px blue,
+    0 0 10px blue,
+    0 0 20px blue,
+    0 0 40px blue,
+    0 0 80px rgb(0, 155, 251),
+    0 0 90px rgb(0, 155, 251);
+    ;
+}
+
+#time2{
+    box-shadow: 0 0 5px red,
+    0 0 10px red,
+    0 0 20px red,
+    0 0 40px red,
+    0 0 80px orange,
+    0 0 90px orange;
+    ;
+}
+
+.wins{
+    margin-top: 30px;
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+#win1{
+    box-shadow: 0 0 5px blue,
+    0 0 10px blue,
+    0 0 20px blue,
+    0 0 40px blue;
+}
+
+#win2{
+    box-shadow: 0 0 5px red,
+    0 0 10px red,
+    0 0 20px red,
+    0 0 40px red
+    ;
+}
+
+#game{
+    background-color: darkgray;
+    width: 600px;
+    height: 800px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 180px;
+    text-align: center;
+}
+
+#matchs{
+    border-radius: 30px;
+    margin-top: 30px;
+    width: 400px;
+    height: 100px;
+    box-shadow:
+    0 0 5px blue,
+    0 0 10px blue,
+    0 0 20px blue,
+    0 0 40px blue;
+    ;
+}
+
+.triki{
+    margin-top: 30px;
+    width: 450px;
+    height: 450px;
+    background-color: aqua;
+}
+
+.btn{
+    margin-top: 30px;
+    width: 33%;
+    height: 50px;
+    background-color: red;
+    border-radius: 30px;
+    font-size: 30px;
+    
+}
+
+.sec{
+    width: 148px;
+    height: 148px;
+    background-color: bisque;
+    float: left;
+    border: 1px solid black;
+}
