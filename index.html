@@ -27,7 +27,17 @@
         <header>
             TRIKI
         </header>
-        <div id="match" class="match"></div>
+
+        <input type="number" id="match" class="match" placeholder="Cant of matchs" value="1" min="1" step="2">
+        <div>
+                <fieldset id="fieldset">
+                    <legend>Wich player starts?</legend>
+                    <input type="radio" name="choseP" id="raplayer1" checked> Player 1
+                    <input type="radio" name="choseP" id="raplayer2"> Player 2
+                
+                </fieldset>
+                
+        </div>
         <div id="triki" class="triki">
             
             <div id="sec" class="sec"></div>
@@ -42,12 +52,10 @@
         </div>
         <button id="btn" class="btn">START</button>
         <button id="btnR" class="btnR">RESTART</button>
+        
     </div>
 
     
-
-
-
     <div id="player2" class="palyer">
         <img src="img/user2.png" alt="" class="userimg">
         <div class="name">
@@ -56,6 +64,7 @@
         <div id="time2" class="timep"></div>
         <div id="win2" class="wins"></div>
     </div>
+    
     <script src="js/main.js"></script>
 </body>
 

@@ -2,6 +2,7 @@
     background-color: black;
     margin: auto;
     font-family: Rockwell;
+    color: white;
 }
 
 header{
@@ -85,6 +86,7 @@ header{
     width: 80%;
     height: 10vh;
     margin-top: 60px;
+    font-size: 200%;
 }
 
 #time1{
@@ -141,15 +143,16 @@ header{
     border-radius: 30px;
     color: white;
     margin-top: 30px;
-    width: 70%;
-    height: 10vh;
+    width: 35%;
+    height: 5vh;
     box-shadow:
     0 0 5px blue,
     0 0 10px blue,
     0 0 20px blue,
     0 0 40px blue;
     ;
-    font-size: 200%;
+    font-size: 100%;
+    text-align: center;
 }
 
 .triki{
@@ -186,7 +189,6 @@ button:hover{
     0 0 20px green,
     0 0 40px green
     ;;
-    /* background-color: bisque; */
     float: left;
     border: 1px solid white;
     box-shadow: 0 0 5px red,
@@ -203,3 +205,19 @@ button:hover{
     0 0 40px green
     ;
 }
+
+fieldset{
+    width: 40%;
+    margin-top: 2%;
+    box-shadow:
+    0 0 5px blue,
+    0 0 10px blue,
+    0 0 20px blue,
+    0 0 40px blue;;
+    text-shadow:
+    0 0 5px blue,
+    0 0 10px blue;
+}
+
+
+
